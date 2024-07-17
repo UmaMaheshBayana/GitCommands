@@ -1,7 +1,9 @@
 #Git Basic Commands
 
 ---- configure user details in our local repo ----
-```git config --global user.name "username"```
+```
+git config --global user.name "username"
+```
 ```git config --global user.email "emailId"```
 
 ---- cloning public repo ----
