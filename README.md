@@ -39,7 +39,7 @@ git push -u origin master
 ```
 
 
-Other Git Commands
+**Other Git Commands**
 
 ---- create branch staging ----
 ```
@@ -57,7 +57,7 @@ git push -u origin branchName
 ```
 
 
-Creating repo in local and updating it on gitHUB
+**Creating repo in local and updating it on gitHUB**
 
 1) Create a folder
 2) inside the folder initiate git
