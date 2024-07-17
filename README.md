@@ -88,3 +88,15 @@ git remote add https://github.com/username/reponame.git
 ```
 git push -u origin branchName
 ```
+**Git Revert Commands**
+
+---- revert the changes in a single file from working directory which is not added to staging ----
+```
+git restore filename
+```
+---- revert the changes in a multiple file from working directory which is not added to staging ----
+```
+git restore .
+```
+
+
