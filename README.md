@@ -78,10 +78,13 @@ git commit -m "comment discription"
 
 3) Create repo manually in gitHUB
 4) Add the repo details in local
+
 --- add remote repo details ----
 ```
 git remote add https://github.com/username/reponame.git
 ```
 
 ---- push the changes from local to repo ---- 
-```git push -u origin branchName```
+```
+git push -u origin branchName
+```
