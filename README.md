@@ -102,6 +102,7 @@ git restore .
 ```
 
 *Reverting changes from staginig*
+
 ---- revert changes from staging directory to working directory and reverting from working directory(meanes after running git add . command) ----
 ```
 git restore --staged .
@@ -111,6 +112,7 @@ git restore .
 ```
 
 *Reverting changes from local repo*
+
 ---- revert changes from local repo to staging and reverting from working directory(meanes after running git add . command) ----
 ```
 git restore HEAD~
