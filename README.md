@@ -90,13 +90,22 @@ git push -u origin branchName
 ```
 **Git Revert Commands**
 
----- revert the changes in a single file from working directory which is not added to staging ----
+---- revert the changes in a single file from working directory which is not added to staging(means before running git add . command) ----
 ```
 git restore filename
 ```
----- revert the changes in a multiple file from working directory which is not added to staging ----
+---- revert the changes in a multiple file from working directory which is not added to staging(means befor running git add . command) ----
 ```
 git restore .
 ```
+
+---- revert changes from staging directory to working directory and reverting from working directory(meanes after running git add . command) ----
+```
+git restore --staged .
+```
+```
+git restore .
+```
+
 
 
